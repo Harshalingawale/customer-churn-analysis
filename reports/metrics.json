@@ -1,0 +1,52 @@
+{
+  "auc_by_model": {
+    "logreg": 0.8446,
+    "rf": 0.7958
+  },
+  "best_model": "logreg",
+  "confusion_matrix": [
+    [
+      853,
+      296
+    ],
+    [
+      56,
+      195
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9383938393839384,
+      "recall": 0.742384682332463,
+      "f1-score": 0.8289601554907677,
+      "support": 1149.0
+    },
+    "1": {
+      "precision": 0.3971486761710794,
+      "recall": 0.7768924302788844,
+      "f1-score": 0.5256064690026954,
+      "support": 251.0
+    },
+    "accuracy": 0.7485714285714286,
+    "macro avg": {
+      "precision": 0.6677712577775089,
+      "recall": 0.7596385563056738,
+      "f1-score": 0.6772833122467316,
+      "support": 1400.0
+    },
+    "weighted avg": {
+      "precision": 0.841356313693633,
+      "recall": 0.7485714285714286,
+      "f1-score": 0.774573173127549,
+      "support": 1400.0
+    }
+  },
+  "churn_rate": 0.1791,
+  "top_drivers": [
+    "num__monthly_charges",
+    "num__tenure_months",
+    "num__total_charges",
+    "cat__contract_Month-to-month",
+    "cat__internet_service_Fiber optic"
+  ]
+}

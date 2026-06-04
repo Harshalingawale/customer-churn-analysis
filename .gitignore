@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.DS_Store
+.ipynb_checkpoints/
+# NOTE: data/churn.csv and reports/figures/*.png are committed so the
+# notebook and README render on GitHub.
