@@ -3,6 +3,7 @@
 > An end-to-end data-science study: **which customers churn, why, and what to do about it** — with EDA, an interpretable model (ROC-AUC ≈ 0.84), and business recommendations.
 
 <p align="left">
+  <img src="https://github.com/Harshalingawale/customer-churn-analysis/actions/workflows/ci.yml/badge.svg" alt="CI" />
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white" />
   <img src="https://img.shields.io/badge/pandas-Data-150458?logo=pandas&logoColor=white" />
