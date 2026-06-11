@@ -24,7 +24,7 @@ jobs:
           mkdir -p _site
           jupyter nbconvert --to html --output index --output-dir _site \
             notebooks/churn_analysis.ipynb
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
   deploy:
